@@ -110,10 +110,10 @@ echo -e "\n${YELLOW}[Language Files Cleanup]${NC}"
 find /Applications -type d -name "*.lproj" -not -name "en.lproj" -not -name "ru.lproj" -exec rm -rf {} + 2>/dev/null
 echo -e "${GREEN}Unused language files cleared${NC}"
 
-# 14. Temporary Files
-echo -e "\n${YELLOW}[Temporary Files Cleanup]${NC}"
-rm -rf /private/var/folders/*/*/*/C/* 2>/dev/null
-echo -e "${GREEN}Temporary files cleared${NC}"
+# # 14. Temporary Files
+# echo -e "\n${YELLOW}[Temporary Files Cleanup]${NC}"
+# rm -rf /private/var/folders/*/*/*/C/* 2>/dev/null
+# echo -e "${GREEN}Temporary files cleared${NC}"
 
 # 15. Podcasts and iTunes Cache
 echo -e "\n${YELLOW}[Podcasts and iTunes Cleanup]${NC}"
