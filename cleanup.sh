@@ -1,5 +1,4 @@
 #!/bin/bash
-# macOS Safe Cleaner v3.1
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "Root privileges required. Enter password:"
