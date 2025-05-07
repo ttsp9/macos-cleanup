@@ -6,13 +6,6 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-echo -e "${YELLOW}This script will delete cache files and other temporary data. Continue? [y/N]${NC}"
-read -r response
-if [[ ! "$response" =~ ^[Yy]$ ]]; then
-    echo "Cleanup aborted."
-    exit 0
-fi
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
