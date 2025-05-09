@@ -2,6 +2,8 @@
 
 A simple script for disk cleanup on macOS.
 
+> ⚠️ **Warning**: This script uses an aggressive cleanup strategy. It will remove ALL files from your Downloads directory and bin directory, along with various caches and temporary files.
+
 Your Mac will thank you!
 
 Run the following command in the **Terminal** to execute the cleanup script:
