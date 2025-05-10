@@ -115,6 +115,12 @@ echo -e "\n${YELLOW}[Downloads Cleanup]${NC}"
 rm -rf ~/Downloads/* 2>/dev/null
 echo -e "${GREEN}Downloads folder cleared${NC}"
 
+# Screenshots Cleanup
+echo -e "\n${YELLOW}[Screenshots Cleanup]${NC}"
+rm -rf ~/Desktop/Screen\ Shot*.png 2>/dev/null
+rm -rf ~/Desktop/Screenshot*.png 2>/dev/null
+echo -e "${GREEN}Desktop screenshots cleared${NC}"
+
 # Bin Cleanup
 echo -e "\n${YELLOW}[Bin Cleanup]${NC}"
 rm -rf ~/bin/* 2>/dev/null
